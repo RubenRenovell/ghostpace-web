@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidad — GhostPace</title>
+  <meta name="description" content="Política de Privacidad y Tratamiento de Datos de GhostPace. RGPD. Tus datos de entrenamiento son tuyos." />
+  <link rel="icon" type="image/png" href="logo.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            void: '#05070d',
+            panel: '#0a0f1a',
+            cyan: { neon: '#00e5ff', dim: '#0891b2' },
+            orange: { neon: '#ff6a00', gold: '#ffb347' },
+          },
+          fontFamily: {
+            display: ['"Orbitron"', 'sans-serif'],
+            body: ['"Exo 2"', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700&family=Orbitron:wght@600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #05070d;
+      background-image:
+        radial-gradient(ellipse 60% 40% at 20% 0%, rgba(0, 229, 255, 0.08), transparent 55%),
+        radial-gradient(ellipse 50% 35% at 90% 100%, rgba(255, 106, 0, 0.06), transparent 50%),
+        linear-gradient(180deg, #05070d 0%, #070b14 50%, #05070d 100%);
+    }
+
+    .logo-mark {
+      display: block;
+      mix-blend-mode: screen;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+
+    .legal-prose h2 {
+      scroll-margin-top: 6rem;
+    }
+
+    .legal-prose ul {
+      list-style: none;
+      padding: 0;
+      margin: 1.25rem 0 0;
+    }
+
+    .legal-prose ul li {
+      position: relative;
+      padding-left: 1.25rem;
+      margin-top: 0.85rem;
+      line-height: 1.85;
+      color: #94a3b8;
+    }
+
+    .legal-prose ul li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.7em;
+      width: 6px;
+      height: 1px;
+      background: #00e5ff;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body class="font-body text-slate-300 antialiased">
+
+  <header class="sticky top-0 z-30 border-b border-slate-800/70 bg-void/85 backdrop-blur-md">
+    <div class="mx-auto flex max-w-3xl items-center justify-between gap-4 px-6 py-4 md:px-8">
+      <a
+        href="index.html"
+        class="inline-flex items-center gap-2 rounded border border-cyan-neon/30 bg-cyan-neon/5 px-3.5 py-2 font-display text-[11px] font-bold tracking-[0.18em] text-cyan-neon uppercase transition hover:border-cyan-neon/55 hover:bg-cyan-neon/10"
+      >
+        <span aria-hidden="true">←</span>
+        Volver al Inicio
+      </a>
+      <a href="index.html" class="inline-flex items-center gap-2 opacity-90 transition hover:opacity-100" aria-label="GhostPace">
+        <img class="logo-mark h-8 w-8" src="logo.png" alt="" width="32" height="32" decoding="async" />
+      </a>
+    </div>
+  </header>
+
+  <main class="relative z-10 px-6 py-14 md:px-8 md:py-20">
+    <article class="legal-prose mx-auto max-w-3xl">
+      <p class="font-display text-[11px] tracking-[0.28em] text-cyan-neon/70 uppercase">Legal</p>
+      <h1 class="mt-3 font-display text-2xl font-bold leading-tight tracking-wide text-white sm:text-3xl md:text-4xl">
+        Política de Privacidad<br class="hidden sm:block" />
+        <span class="text-slate-300">y Tratamiento de Datos</span>
+      </h1>
+      <p class="mt-5 text-sm text-slate-500">
+        Última actualización: <time datetime="2026-07-19" class="text-slate-400">19 de julio de 2026</time>
+      </p>
+
+      <aside class="mt-10 border border-cyan-neon/20 bg-cyan-neon/[0.04] px-5 py-5 md:px-6">
+        <p class="font-display text-[10px] tracking-[0.22em] text-cyan-neon uppercase">Nuestro compromiso</p>
+        <p class="mt-3 text-base leading-[1.8] text-slate-200">
+          Tus datos de entrenamiento son tuyos. GhostPace funciona como una lente analítica, no como un broker de datos.
+        </p>
+      </aside>
+
+      <nav class="mt-10 border-y border-slate-800/80 py-6" aria-label="Índice">
+        <p class="font-display text-[10px] tracking-[0.25em] text-slate-500 uppercase">Contenido</p>
+        <ol class="mt-4 space-y-2.5 text-sm text-slate-400">
+          <li><a href="#introduccion" class="transition hover:text-cyan-neon">1. Introducción y Nuestro Compromiso</a></li>
+          <li><a href="#strava" class="transition hover:text-cyan-neon">2. Datos Recopilados a través de Strava</a></li>
+          <li><a href="#uso" class="transition hover:text-cyan-neon">3. Uso Exclusivo de los Datos</a></li>
+          <li><a href="#almacenamiento" class="transition hover:text-cyan-neon">4. Almacenamiento y Seguridad</a></li>
+          <li><a href="#beta" class="transition hover:text-cyan-neon">5. Soporte Técnico (Fase Beta)</a></li>
+          <li><a href="#control" class="transition hover:text-cyan-neon">6. Control Total: Desconexión y Derecho al Olvido</a></li>
+        </ol>
+      </nav>
+
+      <section id="introduccion" class="mt-14">
+        <h2 class="font-display text-lg font-bold tracking-wide text-cyan-neon md:text-xl">
+          1. Introducción y Nuestro Compromiso
+        </h2>
+        <div class="mt-5 space-y-5 text-base leading-[1.85] text-slate-400">
+          <p>
+            Bienvenido a GhostPace (&ldquo;nosotros&rdquo;, &ldquo;la Aplicación&rdquo;). Nuestra misión es ofrecerte
+            herramientas de análisis deportivo avanzado y visualización de rendimiento. Al estar basados en España,
+            nos regimos por el Reglamento General de Protección de Datos (RGPD) de la Unión Europea.
+          </p>
+          <p>
+            Nuestra filosofía es simple: <span class="text-slate-200">Tus datos de entrenamiento son tuyos.</span>
+            GhostPace funciona como una lente analítica, no como un broker de datos. No vendemos, alquilamos ni cedemos
+            tu información de salud, geolocalización o rendimiento a terceros bajo ninguna circunstancia.
+          </p>
+        </div>
+      </section>
+
+      <section id="strava" class="mt-14 border-t border-slate-800/60 pt-14">
+        <h2 class="font-display text-lg font-bold tracking-wide text-cyan-neon md:text-xl">
+          2. Datos Recopilados a través de Strava
+        </h2>
+        <div class="mt-5 space-y-5 text-base leading-[1.85] text-slate-400">
+          <p>
+            Para que nuestro motor analítico funcione, GhostPace requiere conexión con tu cuenta de Strava.
+            Al otorgarnos permisos, recopilamos:
+          </p>
+          <ul>
+            <li>
+              <span class="font-medium text-slate-200">Datos de Perfil Básico:</span>
+              ID de usuario de Strava y nombre público para crear tu cuenta.
+            </li>
+            <li>
+              <span class="font-medium text-slate-200">Datos de Actividad y Telemetría:</span>
+              Archivos de rutas (.FIT o equivalentes), que incluyen coordenadas GPS, frecuencia cardíaca, cadencia,
+              potencia, ritmo y altitud. Solo accedemos a las actividades que nos permitas leer según la configuración
+              de privacidad de tu cuenta de Strava.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="uso" class="mt-14 border-t border-slate-800/60 pt-14">
+        <h2 class="font-display text-lg font-bold tracking-wide text-cyan-neon md:text-xl">
+          3. Uso Exclusivo de los Datos
+        </h2>
+        <p class="mt-2 text-sm tracking-wide text-slate-500">(Por qué los necesitamos)</p>
+        <div class="mt-5 space-y-5 text-base leading-[1.85] text-slate-400">
+          <p>
+            Los datos extraídos de Strava se utilizan exclusiva y estrictamente para las funcionalidades internas de GhostPace:
+          </p>
+          <ul>
+            <li>
+              Aislar tu esfuerzo real frente al ruido ambiental mediante algoritmos de normalización temporal (DTW)
+              y calcular tu Puntuación Metabólica (IEM Score).
+            </li>
+            <li>
+              Renderizar visualizaciones 3D en tu dispositivo (&ldquo;Vueltas Fantasma&rdquo;).
+            </li>
+            <li>
+              Agrupar tus rutas en &ldquo;Circuitos&rdquo; habituales.
+            </li>
+          </ul>
+          <p class="border-l-2 border-orange-neon/50 pl-4 text-slate-300">
+            GhostPace <span class="font-medium text-white">NO</span> utiliza tus datos para publicidad segmentada,
+            no crea perfiles comerciales y no comparte tu telemetría con redes publicitarias.
+          </p>
+        </div>
+      </section>
+
+      <section id="almacenamiento" class="mt-14 border-t border-slate-800/60 pt-14">
+        <h2 class="font-display text-lg font-bold tracking-wide text-cyan-neon md:text-xl">
+          4. Almacenamiento y Seguridad
+        </h2>
+        <div class="mt-5 space-y-5 text-base leading-[1.85] text-slate-400">
+          <p>Tus datos están protegidos bajo una arquitectura distribuida:</p>
+          <ul>
+            <li>
+              Tus datos de autenticación y metadatos se cifran y almacenan en bases de datos con Políticas de Seguridad
+              de Fila (RLS) estrictas, asegurando que solo tú puedas solicitar la visualización de tus rutas.
+            </li>
+            <li>
+              Los archivos telemétricos procesados se almacenan de forma segura en depósitos privados en la nube
+              (Cloudflare R2), inaccesibles para el público general.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="beta" class="mt-14 border-t border-slate-800/60 pt-14">
+        <h2 class="font-display text-lg font-bold tracking-wide text-cyan-neon md:text-xl">
+          5. Soporte Técnico (Fase Beta)
+        </h2>
+        <div class="mt-5 space-y-5 text-base leading-[1.85] text-slate-400">
+          <p>
+            Para garantizar la estabilidad del sistema y resolver incidencias, aceptas que nuestro equipo de ingeniería
+            dispone de acceso en <span class="text-slate-200">&ldquo;Modo de Solo Lectura&rdquo;</span> a los datos procesados.
+            Este acceso es estrictamente reactivo (se usa solo si el sistema reporta un fallo crítico o si solicitas ayuda),
+            garantizando confidencialidad absoluta y prohibiendo la extracción o copia de tus rutas fuera del entorno de depuración.
+          </p>
+        </div>
+      </section>
+
+      <section id="control" class="mt-14 border-t border-slate-800/60 pt-14">
+        <h2 class="font-display text-lg font-bold tracking-wide text-cyan-neon md:text-xl">
+          6. Control Total: Desconexión y Derecho al Olvido
+        </h2>
+        <div class="mt-5 space-y-5 text-base leading-[1.85] text-slate-400">
+          <p>Tienes control absoluto sobre tu vínculo con GhostPace:</p>
+
+          <div class="border border-slate-800/90 bg-panel/50 px-5 py-5 md:px-6">
+            <h3 class="font-display text-sm font-bold tracking-wide text-orange-gold">
+              Revocación de Acceso (Desconexión)
+            </h3>
+            <p class="mt-3">
+              Puedes cortar nuestro acceso a tu cuenta en cualquier momento. Entra en tu cuenta de Strava vía web,
+              dirígete a <span class="text-slate-200">Configuración &gt; Mis Aplicaciones (My Apps)</span> y haz clic en
+              &ldquo;Revocar Acceso&rdquo; junto a GhostPace. Desde ese instante, nuestro sistema dejará de sincronizar datos.
+            </p>
+          </div>
+
+          <div class="border border-slate-800/90 bg-panel/50 px-5 py-5 md:px-6">
+            <h3 class="font-display text-sm font-bold tracking-wide text-orange-gold">
+              Derecho al Borrado Total
+            </h3>
+            <p class="mt-3">
+              Para destruir el historial ya procesado en nuestros servidores, envíanos un email a
+              <a href="mailto:privacy@ghostpace.app" class="text-cyan-neon underline decoration-cyan-neon/30 underline-offset-4 transition hover:decoration-cyan-neon">privacy@ghostpace.app</a>
+              con el asunto <span class="text-slate-200">&ldquo;Solicitud de Borrado&rdquo;</span>.
+              En un plazo legal máximo de 30 días, eliminaremos permanentemente tu usuario y purgaremos todos tus
+              archivos asociados (.FIT / .JSON). Esta acción es irreversible.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="mt-16 flex flex-col gap-4 border-t border-slate-800/80 pt-8 sm:flex-row sm:items-center sm:justify-between">
+        <a
+          href="index.html"
+          class="inline-flex items-center gap-2 font-display text-[11px] font-bold tracking-[0.18em] text-cyan-neon uppercase transition hover:text-white"
+        >
+          <span aria-hidden="true">←</span>
+          Volver al Inicio
+        </a>
+        <a
+          href="terms.html"
+          class="inline-flex items-center gap-2 font-display text-[11px] font-bold tracking-[0.18em] text-orange-gold uppercase transition hover:text-white"
+        >
+          Términos de Servicio
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+    </article>
+  </main>
+
+  <footer class="relative z-10 border-t border-slate-800/80 bg-panel/80 px-6 py-10 md:px-8">
+    <div class="mx-auto flex max-w-3xl flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+      <p class="font-display text-xs tracking-[0.28em] text-cyan-neon/80 uppercase">GhostPace</p>
+      <div class="flex flex-wrap gap-x-5 gap-y-2 text-xs text-slate-500">
+        <a href="privacy.html" class="text-cyan-neon transition hover:text-white">Privacidad</a>
+        <a href="terms.html" class="transition hover:text-cyan-neon">Términos</a>
+        <span class="text-slate-600">&copy; 2026 GhostPace</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
