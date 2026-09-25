@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Privacy Policy — GhostPace</title>
-  <meta name="description" content="GhostPace Privacy Policy. GDPR. How we use your Strava data — read-only, for your own activity replay and analysis." />
+  <meta name="description" content="GhostPace Privacy Policy. GDPR. Connect with Strava, read-only, deletion receipt ID, 7-day pending cache, Mapbox." />
   <link rel="icon" type="image/png" href="logo.png" />
   <link rel="alternate" hreflang="es" href="privacy.html" />
   <link rel="alternate" hreflang="en" href="privacy-en.html" />
@@ -51,12 +51,8 @@
 
   <header class="sticky top-0 z-30 border-b border-slate-800/70 bg-void/85 backdrop-blur-md">
     <div class="mx-auto flex max-w-3xl items-center justify-between gap-4 px-6 py-4 md:px-8">
-      <a
-        href="index.html"
-        class="inline-flex items-center gap-2 rounded border border-cyan-neon/30 bg-cyan-neon/5 px-3.5 py-2 font-display text-[11px] font-bold tracking-[0.18em] text-cyan-neon uppercase transition hover:border-cyan-neon/55 hover:bg-cyan-neon/10"
-      >
-        <span aria-hidden="true">←</span>
-        Home
+      <a href="index.html" class="inline-flex items-center gap-2 rounded border border-cyan-neon/30 bg-cyan-neon/5 px-3.5 py-2 font-display text-[11px] font-bold tracking-[0.18em] text-cyan-neon uppercase transition hover:border-cyan-neon/55 hover:bg-cyan-neon/10">
+        <span aria-hidden="true">←</span> Home
       </a>
       <a href="index.html" class="inline-flex items-center gap-2 opacity-90 transition hover:opacity-100" aria-label="GhostPace">
         <img class="logo-mark h-8 w-8" src="logo.png" alt="" width="32" height="32" decoding="async" />
@@ -68,142 +64,147 @@
     <article class="legal-prose mx-auto max-w-3xl">
       <p class="font-display text-[11px] tracking-[0.28em] text-cyan-neon/70 uppercase">Legal</p>
       <h1 class="mt-3 font-display text-2xl font-bold leading-tight tracking-wide text-white sm:text-3xl md:text-4xl">
-        Privacy Policy<br class="hidden sm:block" />
-        <span class="text-slate-300">and data processing</span>
+        Privacy Policy
       </h1>
       <p class="mt-5 text-sm text-slate-500">
-        Last updated: <time datetime="2026-08-31" class="text-slate-400">31 August 2026</time>
+        Last updated: <time datetime="2026-09-22" class="text-slate-400">22 September 2026</time>
         · <a href="privacy.html" class="text-cyan-neon/80 underline-offset-4 hover:underline">Español</a>
       </p>
 
       <aside class="mt-10 border border-cyan-neon/20 bg-cyan-neon/[0.04] px-5 py-5 md:px-6">
         <p class="font-display text-[10px] tracking-[0.22em] text-cyan-neon uppercase">Our commitment</p>
         <p class="mt-3 text-base leading-[1.8] text-slate-200">
-          Your training data is yours. GhostPace is an analytical lens, not a data broker.
-          We are a third-party app. We are not affiliated with, sponsored by, or endorsed by Strava, Inc.
+          GhostPace is a third-party sports analysis app. We are not affiliated with, sponsored by, or endorsed by Strava, Inc.
+          Contact:
+          <a href="mailto:ghostpace.app@gmail.com" class="text-cyan-neon underline decoration-cyan-neon/30 underline-offset-4 hover:decoration-cyan-neon">ghostpace.app@gmail.com</a>.
+          We are based in Spain and process personal data under the GDPR and UK GDPR.
         </p>
       </aside>
 
       <nav class="mt-10 border-y border-slate-800/80 py-6" aria-label="Contents">
         <p class="font-display text-[10px] tracking-[0.25em] text-slate-500 uppercase">Contents</p>
         <ol class="mt-4 space-y-2.5 text-sm text-slate-400">
-          <li><a href="#intro" class="transition hover:text-cyan-neon">1. Who we are</a></li>
-          <li><a href="#strava" class="transition hover:text-cyan-neon">2. Data we receive from Strava</a></li>
-          <li><a href="#use" class="transition hover:text-cyan-neon">3. How we use that data</a></li>
-          <li><a href="#storage" class="transition hover:text-cyan-neon">4. Storage and processors</a></li>
-          <li><a href="#beta" class="transition hover:text-cyan-neon">5. Beta support access</a></li>
-          <li><a href="#control" class="transition hover:text-cyan-neon">6. Disconnect and deletion</a></li>
+          <li><a href="#strava" class="transition hover:text-cyan-neon">1. Data we receive from Strava</a></li>
+          <li><a href="#use" class="transition hover:text-cyan-neon">2. How we use it</a></li>
+          <li><a href="#storage" class="transition hover:text-cyan-neon">3. Storage</a></li>
+          <li><a href="#who" class="transition hover:text-cyan-neon">4. Who sees your data</a></li>
+          <li><a href="#deletion" class="transition hover:text-cyan-neon">5. Withdrawal and deletion</a></li>
+          <li><a href="#access" class="transition hover:text-cyan-neon">6. Access to your GhostPace copy</a></li>
+          <li><a href="#children" class="transition hover:text-cyan-neon">7. Children</a></li>
+          <li><a href="#changes" class="transition hover:text-cyan-neon">8. Changes</a></li>
         </ol>
       </nav>
 
-      <section id="intro" class="mt-14">
-        <h2 class="font-display text-lg font-bold tracking-wide text-cyan-neon md:text-xl">1. Who we are</h2>
+      <section id="strava" class="mt-14">
+        <h2 class="font-display text-lg font-bold tracking-wide text-cyan-neon md:text-xl">1. Data we receive from Strava</h2>
         <div class="mt-5 space-y-5 text-base leading-[1.85] text-slate-400">
           <p>
-            GhostPace (“we”, “the App”) is a sports analysis and 3D replay product operated from Spain
-            and subject to the EU General Data Protection Regulation (GDPR). Contact:
-            <a href="mailto:ghostpace.app@gmail.com" class="text-cyan-neon underline decoration-cyan-neon/30 underline-offset-4 hover:decoration-cyan-neon">ghostpace.app@gmail.com</a>.
-          </p>
-          <p>
-            <span class="text-slate-200">Your training data is yours.</span>
-            We do not sell, rent, or hand your health, GPS, or performance information to advertisers.
-          </p>
-        </div>
-      </section>
-
-      <section id="strava" class="mt-14 border-t border-slate-800/60 pt-14">
-        <h2 class="font-display text-lg font-bold tracking-wide text-cyan-neon md:text-xl">2. Data we receive from Strava</h2>
-        <div class="mt-5 space-y-5 text-base leading-[1.85] text-slate-400">
-          <p>
-            GhostPace connects to your Strava account with
-            <span class="text-slate-200">read-only</span> OAuth scopes
-            (<code class="text-slate-300">read</code>, <code class="text-slate-300">activity:read_all</code>).
-            We collect:
+            After you tap <span class="text-slate-200">Connect with Strava</span>, we use read-only OAuth scopes
+            <code class="text-slate-300">read</code> and <code class="text-slate-300">activity:read_all</code>:
           </p>
           <ul>
-            <li>
-              <span class="font-medium text-slate-200">Basic profile:</span>
-              Strava athlete ID and public name, to create your GhostPace account.
-            </li>
-            <li>
-              <span class="font-medium text-slate-200">Activity and telemetry:</span>
-              route files (.FIT or equivalent) including GPS, heart rate, cadence, power, pace, and elevation,
-              only for activities Strava allows us to read under your Strava privacy settings.
-            </li>
+            <li>Basic profile needed to bind your GhostPace account (Strava athlete ID, public name).</li>
+            <li>Activity telemetry Strava allows us to read under your Strava privacy settings: GPS, time, elevation, heart rate, cadence, power when present.</li>
           </ul>
           <p>
-            GhostPace <span class="text-slate-200">does not post, edit, or delete activities on Strava</span>
-            on your behalf. We do not write to your Strava feed.
+            We do not post, edit, or delete activities on Strava. We do not request
+            <code class="text-slate-300">email</code> or write scopes.
           </p>
         </div>
       </section>
 
       <section id="use" class="mt-14 border-t border-slate-800/60 pt-14">
-        <h2 class="font-display text-lg font-bold tracking-wide text-cyan-neon md:text-xl">3. How we use that data</h2>
+        <h2 class="font-display text-lg font-bold tracking-wide text-cyan-neon md:text-xl">2. How we use it</h2>
         <div class="mt-5 space-y-5 text-base leading-[1.85] text-slate-400">
-          <p>
-            Strava data is used only inside GhostPace, for
-            <span class="text-slate-200">your own activities</span>:
-          </p>
+          <p>Only inside GhostPace, for <span class="text-slate-200">you</span>:</p>
           <ul>
-            <li>Replay and 3D visualisation of sessions you imported.</li>
-            <li>
-              Compare efforts you choose — typically other laps
-              <span class="text-slate-200">you own</span> on the same circuit — not a public race or third-party league.
-            </li>
-            <li>Group your routes into habitual “Circuits” and show effort metrics (pace, elevation, time) on those sessions.</li>
+            <li>3D replay of sessions you imported.</li>
+            <li>Compare a session with <span class="text-slate-200">another lap you own</span> on the same circuit (Ghost).</li>
+            <li>Pace: a derived, same-effort clock of <span class="text-slate-200">this</span> session. Not another athlete.</li>
           </ul>
           <p class="border-l-2 border-orange-neon/50 pl-4 text-slate-300">
-            We do <span class="font-medium text-white">not</span> use this data for targeted ads,
-            commercial profiling, or ad networks.
+            We do not use Strava data for ads, commercial profiling, or ad networks. We do not train AI models on your Strava data.
           </p>
+          <p>Strava may collect usage data about our use of the API, as described in the Strava API Agreement.</p>
         </div>
       </section>
 
       <section id="storage" class="mt-14 border-t border-slate-800/60 pt-14">
-        <h2 class="font-display text-lg font-bold tracking-wide text-cyan-neon md:text-xl">4. Storage and processors</h2>
+        <h2 class="font-display text-lg font-bold tracking-wide text-cyan-neon md:text-xl">3. Storage</h2>
         <div class="mt-5 space-y-5 text-base leading-[1.85] text-slate-400">
-          <p>Processors:</p>
           <ul>
-            <li><span class="font-medium text-slate-200">Supabase:</span> auth and light metadata, with row-level security.</li>
-            <li><span class="font-medium text-slate-200">Cloudflare R2:</span> private telemetry objects (JSON / FIT), not a public index.</li>
-            <li><span class="font-medium text-slate-200">Render:</span> the app API (sync and session delivery).</li>
+            <li><span class="font-medium text-slate-200">Supabase:</span> account metadata and light catalog fields (row-level security). Not full GPS JSON in the feed.</li>
+            <li><span class="font-medium text-slate-200">Cloudflare R2:</span> private derived session objects (JSON). Raw pending streams expire in <span class="text-slate-200">7 days</span>.</li>
+            <li><span class="font-medium text-slate-200">Render:</span> API (sync and session URLs).</li>
+            <li><span class="font-medium text-slate-200">Mapbox:</span> map tiles on your device.</li>
           </ul>
-        </div>
-      </section>
-
-      <section id="beta" class="mt-14 border-t border-slate-800/60 pt-14">
-        <h2 class="font-display text-lg font-bold tracking-wide text-cyan-neon md:text-xl">5. Beta support access</h2>
-        <div class="mt-5 space-y-5 text-base leading-[1.85] text-slate-400">
           <p>
-            During closed beta, engineering may use
-            <span class="text-slate-200">read-only</span> access to processed data to fix a critical failure
-            or when you ask for help. We do not copy your routes out of that debug context.
+            The replay file is a downsampled, relative-time <span class="text-slate-200">derived work</span>, not a 1:1 copy of Strava streams.
+            Strava activity IDs are not shown in the app; “View on Strava” uses a public URL when you choose it.
           </p>
         </div>
       </section>
 
-      <section id="control" class="mt-14 border-t border-slate-800/60 pt-14">
-        <h2 class="font-display text-lg font-bold tracking-wide text-cyan-neon md:text-xl">6. Disconnect and deletion</h2>
+      <section id="who" class="mt-14 border-t border-slate-800/60 pt-14">
+        <h2 class="font-display text-lg font-bold tracking-wide text-cyan-neon md:text-xl">4. Who sees your data</h2>
+        <div class="mt-5 space-y-5 text-base leading-[1.85] text-slate-400">
+          <p>
+            Only you, on your signed-in GhostPace session. We do not show your Strava data to other athletes.
+            Engineering impersonation is <span class="text-slate-200">off</span> in production.
+          </p>
+        </div>
+      </section>
+
+      <section id="deletion" class="mt-14 border-t border-slate-800/60 pt-14">
+        <h2 class="font-display text-lg font-bold tracking-wide text-cyan-neon md:text-xl">5. Withdrawal and deletion</h2>
         <div class="mt-5 space-y-5 text-base leading-[1.85] text-slate-400">
           <div class="border border-slate-800/90 bg-panel/50 px-5 py-5 md:px-6">
-            <h3 class="font-display text-sm font-bold tracking-wide text-orange-gold">Revoke access</h3>
+            <h3 class="font-display text-sm font-bold tracking-wide text-orange-gold">Disconnect Strava</h3>
             <p class="mt-3">
-              Disconnect anytime in the GhostPace profile (“Disconnect Strava”) or in Strava on the web:
-              <span class="text-slate-200">Settings &gt; My Apps</span>, then “Revoke Access” next to GhostPace.
-              Disconnecting in the app or revoking access on Strava permanently deletes our copy of your
-              activities (FIT / JSON). If you delete an activity on Strava, the webhook purges that copy.
+              In Profile, or Strava → Settings → My Apps → Revoke GhostPace: we delete our copy of your Strava activities immediately
+              and show a <span class="text-slate-200">confirmation ID</span>.
+              Email that ID to
+              <a href="mailto:ghostpace.app@gmail.com" class="text-cyan-neon underline decoration-cyan-neon/30 underline-offset-4 hover:decoration-cyan-neon">ghostpace.app@gmail.com</a>
+              for a written copy.
             </p>
           </div>
           <div class="border border-slate-800/90 bg-panel/50 px-5 py-5 md:px-6">
-            <h3 class="font-display text-sm font-bold tracking-wide text-orange-gold">Full deletion</h3>
+            <h3 class="font-display text-sm font-bold tracking-wide text-orange-gold">Delete an activity on Strava</h3>
+            <p class="mt-3">We purge our copy (webhook; within 48 hours, usually seconds).</p>
+          </div>
+          <div class="border border-slate-800/90 bg-panel/50 px-5 py-5 md:px-6">
+            <h3 class="font-display text-sm font-bold tracking-wide text-orange-gold">Delete account</h3>
             <p class="mt-3">
-              Email
-              <a href="mailto:ghostpace.app@gmail.com" class="text-cyan-neon underline decoration-cyan-neon/30 underline-offset-4 hover:decoration-cyan-neon">ghostpace.app@gmail.com</a>
-              with subject <span class="text-slate-200">“Deletion request”</span>.
-              Within 30 days we permanently delete your user and associated files (.FIT / .JSON). This cannot be undone.
+              In Profile: we delete your GhostPace user and remaining files. Nothing is deleted on Strava.com.
+              You also get a confirmation ID.
             </p>
           </div>
+          <p>Legal maximum for completing erasure is 30 days where a residual processor delay exists; the in-app action is immediate.</p>
+        </div>
+      </section>
+
+      <section id="access" class="mt-14 border-t border-slate-800/60 pt-14">
+        <h2 class="font-display text-lg font-bold tracking-wide text-cyan-neon md:text-xl">6. Access to your GhostPace copy</h2>
+        <div class="mt-5 space-y-5 text-base leading-[1.85] text-slate-400">
+          <p>
+            Open the app while signed in. For a file export of our derived copy, email
+            <a href="mailto:ghostpace.app@gmail.com" class="text-cyan-neon underline decoration-cyan-neon/30 underline-offset-4 hover:decoration-cyan-neon">ghostpace.app@gmail.com</a>.
+            Strava’s own bulk export remains on Strava.com.
+          </p>
+        </div>
+      </section>
+
+      <section id="children" class="mt-14 border-t border-slate-800/60 pt-14">
+        <h2 class="font-display text-lg font-bold tracking-wide text-cyan-neon md:text-xl">7. Children</h2>
+        <div class="mt-5 space-y-5 text-base leading-[1.85] text-slate-400">
+          <p>GhostPace is not directed at children under 13.</p>
+        </div>
+      </section>
+
+      <section id="changes" class="mt-14 border-t border-slate-800/60 pt-14">
+        <h2 class="font-display text-lg font-bold tracking-wide text-cyan-neon md:text-xl">8. Changes</h2>
+        <div class="mt-5 space-y-5 text-base leading-[1.85] text-slate-400">
+          <p>If the types of Strava data we collect change, we will ask you to authorize again.</p>
         </div>
       </section>
 
@@ -211,7 +212,7 @@
         <a href="index.html" class="inline-flex items-center gap-2 font-display text-[11px] font-bold tracking-[0.18em] text-cyan-neon uppercase transition hover:text-white">
           <span aria-hidden="true">←</span> Home
         </a>
-        <a href="terms.html" class="inline-flex items-center gap-2 font-display text-[11px] font-bold tracking-[0.18em] text-orange-gold uppercase transition hover:text-white">
+        <a href="terms-en.html" class="inline-flex items-center gap-2 font-display text-[11px] font-bold tracking-[0.18em] text-orange-gold uppercase transition hover:text-white">
           Terms of Service <span aria-hidden="true">→</span>
         </a>
       </div>
@@ -224,7 +225,7 @@
       <div class="flex flex-wrap gap-x-5 gap-y-2 text-xs text-slate-500">
         <a href="privacy-en.html" class="text-cyan-neon transition hover:text-white">Privacy</a>
         <a href="privacy.html" class="transition hover:text-cyan-neon">Español</a>
-        <a href="terms.html" class="transition hover:text-cyan-neon">Terms</a>
+        <a href="terms-en.html" class="transition hover:text-cyan-neon">Terms</a>
         <span class="text-slate-600">&copy; 2026 GhostPace</span>
       </div>
     </div>
