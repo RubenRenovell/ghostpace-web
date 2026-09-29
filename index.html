@@ -149,6 +149,33 @@
       .brand-lockup__word { letter-spacing: 0.22em; font-size: 0.72rem; }
     }
 
+    /* Official Strava lockups — do not recrop, recolor, filter, or mix-blend */
+    .strava-lockups {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+    .strava-connect {
+      display: block;
+      width: 237px;
+      height: 48px;
+      max-width: 100%;
+    }
+    .strava-connect-hint {
+      margin: 0;
+      font-size: 11px;
+      line-height: 1.4;
+      color: #64748b;
+    }
+    .strava-powered {
+      display: block;
+      height: 37px;
+      width: auto;
+      max-width: 100%;
+    }
+
     /* ─── Depth stage ─── */
     .depth-stage {
       position: absolute;
@@ -419,15 +446,26 @@
         <p class="mt-5 max-w-xs text-[11px] leading-relaxed text-slate-600">
           GhostPace is not affiliated with, sponsored by, or endorsed by Strava, Inc.
         </p>
-        <img
-          class="mt-4 h-7 w-auto"
-          src="api_logo_pwrdBy_strava_horiz_white.png"
-          alt="Powered by Strava"
-          width="365"
-          height="37"
-          decoding="async"
-          style="mix-blend-mode: screen;"
-        />
+        <div class="strava-lockups">
+          <img
+            class="strava-connect"
+            src="btn_strava_connect_with_orange.png"
+            srcset="btn_strava_connect_with_orange.png 1x, btn_strava_connect_with_orange@2x.png 2x"
+            alt="Connect with Strava"
+            width="237"
+            height="48"
+            decoding="async"
+          />
+          <p class="strava-connect-hint">Open GhostPace to connect</p>
+          <img
+            class="strava-powered"
+            src="api_logo_pwrdBy_strava_horiz_white.png"
+            alt="Powered by Strava"
+            width="365"
+            height="37"
+            decoding="async"
+          />
+        </div>
       </div>
     </div>
     <div class="mx-auto mt-10 max-w-6xl border-t border-slate-800/60 pt-6">
